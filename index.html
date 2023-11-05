@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script type="module" src="./generate.js"></script>
+        <title>StackStart</title>
+    </head>
+    <body>
+        <div class="logo">
+            <a href='index.html'><img id="logo_img" src="./img/stack_start_logo.svg" alt="The logo for StackStart"></a>
+        </div>
+        <div class="input_form" id="input_form">
+            <form class="gen_crit" id="gen_crit" onsubmit="return false">
+                <input type="text" id="theme" name="theme" placeholder="Enter a theme:"/><br>
+                <input type="text" id="features" name="features" placeholder="Features:"><br>
+                <input type="text" id="hack_len" placeholder="Time Constraint:"><br>
+                <input type="number" id="num_ideas" min="1" max="5" placeholder="# of ideas:"/><br>
+                <label for="temperature" id="temp_label"><strong>Creativity</strong></label><br>
+                <input type="range" id="temperature" name="temperature" min="0" max="10" /><br>
+                <input id="spark_find" type="submit" value="Find Your Spark">
+            </form>
+        </div>
+    </body>
+</html>
