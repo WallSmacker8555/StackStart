@@ -7,9 +7,11 @@ body {
     /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, rgb(216, 224, 223));
     
     background: linear-gradient(-45deg, #000000, #481f36, rgb(95, 19, 95), rgb(174, 0, 148));
-    background: linear-gradient(-45deg, #f0afaf, #e987bf, rgb(224, 59, 224), rgb(252, 8, 215));*/
+    background: linear-gradient(-45deg, #f0afaf, #e987bf, rgb(224, 59, 224), rgb(252, 8, 215));
     background: linear-gradient(-45deg, #000000, #3b3b3b, rgb(122, 122, 122),rgb(179, 179, 179));
-   
+    */
+    background: linear-gradient(-45deg, #ff2e2e, rgb(240, 105, 206), rgb(139, 108, 252),rgb(117, 255, 152));
+
     background-size: 400% 400%;
     animation: diag_gradient 15s ease infinite;
     margin: 0%;
