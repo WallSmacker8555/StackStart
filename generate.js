@@ -46,7 +46,7 @@ async function getGenCrit() {
         <div class="container">
             <div class="progress-bar__container">
                 <div class="progress-bar">
-                    <span class="progress-bar__text">Uploaded Successfully!</span>
+                    <span class="progress-bar__text">Generating Greatness!</span>
                 </div>
             </div>
         </div>
