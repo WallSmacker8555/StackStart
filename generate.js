@@ -42,7 +42,7 @@ async function getGenCrit() {
 
     document.getElementById('spark_find').value = "Waiting...";
 
-    let string_combo = `Give me ${num_ideas} ideas for a hackathon project relating to ${theme}. I want a feature that incorporates ${features}. This project should be able to be completed within a time constraint of ${hack_len}.`;
+    let string_combo = `Give me ${num_ideas} ideas for a hackathon project relating to ${theme}. I want a feature that incorporates ${features}. This project should be able to be completed within a time constraint of ${hack_len}.Write back each idea surrounded with a paragraph tag like the following: <p> idea </p>.`;
 
     const num = 1;
     const chatCompletion = await oai.chat.completions.create({
